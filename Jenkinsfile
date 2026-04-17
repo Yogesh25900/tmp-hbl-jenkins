@@ -10,7 +10,7 @@ pipeline {
         stage('Code Fetch') {
             steps {
                 echo 'Code fetch from GitHub'
-                git url: 'https://github.com/codeboylal/tmp-hbl-jenkins.git', branch: 'main'
+                git url: 'https://github.com/Yogesh25900/tmp-hbl-jenkins.git', branch: 'main'
             }
         }
 
